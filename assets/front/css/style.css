@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Jun, 2019, 3:34:57 PM
+    Author     : tops
+*/
+
+@-webkit-keyframes bundleInserted {
+  from {
+    opacity: 0.99;
+    -moz-opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-moz-keyframes bundleInserted {
+  from {
+    opacity: 0.99;
+    -moz-opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-ms-keyframes bundleInserted {
+  from {
+    opacity: 0.99;
+    -moz-opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes bundleInserted {
+  from {
+    opacity: 0.99;
+    -moz-opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes bundleInserted {
+  from {
+    opacity: 0.99;
+    -moz-opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+input[name='checkout'],
+[href^='/checkout'],
+form[action='/checkout'] input[type='submit'],
+form[action='/cart'] button[type='submit']:not([name='update']),
+form[action='/cart'] input[type='submit']:not([name='update']),
+input[name='checkout'],
+button[name='checkout'],
+button.new_checkout_button,
+button.checkoutcartbtn,
+input[value='Checkout'],
+input[value='Check out'],
+input[value='Check Out'],
+a.checkout-link,
+form[action='/cart'] a.btn:not(.cart__continue):not(.cart__remove):not(.cart__update),
+input[name='goto_pp'],
+button[name='goto_pp'] {
+  -webkit-animation-duration: 0.001s;
+  -moz-animation-duration: 0.001s;
+  animation-duration: 0.001s;
+  -webkit-animation-name: bundleInserted;
+  -moz-animation-name: bundleInserted;
+  animation-name: bundleInserted;
+}
